@@ -3,7 +3,7 @@ body {
   padding: 0;
     background-color: #edeef0;
     display: auto;
-    height: 1000px;
+    
     
 }
 .nav-bar {
@@ -22,6 +22,7 @@ body {
       display: block;
       overflow: hidden;
       padding: 9px 11px 9px 277px;
+      cursor: pointer;
      }
 .search input[type=text]{
         width:80px;
@@ -39,7 +40,7 @@ body {
         border-radius:8px;
         float:right;
         margin:7px;
-        margin-left: 130px;
+        margin-left: 127px;
         background-color: #edeef0;
         display: flex;
         width: 228px;
@@ -89,3 +90,104 @@ ul {
            
   }
   
+.divmain{
+   
+    background-color: #edeef0;
+    height: 280px;
+    width: 160px;
+    margin-left: 279px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+}
+
+.sus{
+    display: block;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-top: 28px;
+    color: #656565;
+    
+}
+.sus2{
+    display: block;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #656565;
+    margin-bottom: 3px;
+    padding-top: 10px;
+   
+
+}
+#x1{
+    width: 142px;
+    height: 23px;
+    margin-top: 7px;
+    border: none;
+    border: 1px solid #dce1e6;
+    
+    
+}
+#password{
+    width: 142px;
+    height: 23px;
+    margin-top: 7px;
+    border: none;
+    border: 1px solid #dce1e6;
+
+}
+.buton{
+    display: block;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 143px;
+    color: white;
+    background-color: #5181b8;
+    border: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+    font-size: 12.5px;
+    height: 30px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+}
+
+#l1{
+    color:#5181b8;
+    font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+    font-size: 12.5px;
+    font-weight: 500;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.linie{
+    background-color: rgba(225, 227, 230, 1);
+    height: 1px;
+    margin-top: 17px;
+}
+
+.buttons{
+    background-color: #edeef0;
+    height: 125px;
+    width: 160px;
+    margin-left: 279px;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+    font-size: 13px;
+}
+
+.menubuttons{
+    height: 25px;
+    
+}
+
+.menubuttons:hover{
+    background-color: #dce1e6;
+}
+
+.lmb{
+    color: #4e5966;
+    padding-left: 29px;
+    display: flex;
+    padding-top: 6px;
+    
+}
