@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Intrebari si raspunsuri / VK</title>
+  </head>
+
+  <body>
+    <nav class="nav-bar">
+      <img class="logo" src="vkk.jpg" alt="logo" />
+      <div class="search">
+        <img class="lupa" src="lupa.jpg" alt="lupa" />
+        <form action="#">
+          <input type="text" placeholder="Căutare" name="search" />
+        </form>
+      </div>
+      <div class="div1"></div>
+      <ul>
+        <li><a href="">înregistrare</a></li>
+      </ul>    
+    </nav>
+    <div class="divblock">
+        <div class="divmain">
+            <label class="sus">Telefon sau email</label>
+            <input type="text" id="x1" name="firstname" >
+            <label class="sus2">Parolă</label>
+            <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            <button type="submit" class="buton">Intră</button>
+            <button type="submit" class="buton">Înregistrare</button>
+            <label id="l1">Ați uitat parola?</label><br>
+            <div class="linie"></div><br>
+            <div class="buttons">
+                <div class="menubuttons" style="cursor: pointer;" onclick="window.location='google.com';"><label class="lmb">Muzică</label></div>
+                <div class="menubuttons" style="cursor: pointer;" onclick="window.location='google.com';"><label class="lmb">Video</label></div>
+                <div class="menubuttons" style="cursor: pointer;" onclick="window.location='google.com';"><label class="lmb">Comunități</label></div>
+                <div class="menubuttons" style="cursor: pointer;" onclick="window.location='google.com';"><label class="lmb">Aplicații mini</label></div>
+                <div class="menubuttons" style="cursor: pointer;" onclick="window.location='google.com';"><label class="lmb">Jocuri</label></div>
+            </div>
+            </div>
+            <div class="rside">
+              <div class="lupa_search">
+                <img class="lupa2" src="lupa2.jpg" alt="lupa">
+                <input type="text" id="srch" name="search" placeholder="Tastați întrebarea dvs." >
+              </div>
+                
+              <div class="block_intrebari">
+                  <h2 class="page_block_h2">
+                    <ul class="menu_list">
+                      <li>
+                    <a href="support?act=home" class="ui_tab"> Support </a>
+                      </li>
+                      <li>
+                    <a href="support?act=faqs" class="ui_tab"> Questions </a>  
+                      </li>
+                      <div class="ui_tabs_slider _ui_tabs_slider" style="width: 70.3906px; margin-left: 80px;"></div>
+                    </ul>
+                  </h2>
+              </div>
+              <div class="help_table">
+                <div class="table_header">
+                  <img src="firsthelp.jpeg" class="faq_icon1">
+                  <h3 class="help_table_title">Popular questions</h3>
+                </div>
+              </div>
+            </div>    
+    </div>
+  </body>
+</html>
